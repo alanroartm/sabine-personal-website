@@ -1,7 +1,7 @@
-import Heading from "./heading";
+import Navbar from "./componets/Navbar";
 
 function App() {
-  return <div><Heading></Heading></div>
+  return <div><Navbar /></div>
 }
 
 export default App;
