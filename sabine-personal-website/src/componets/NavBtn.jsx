@@ -1,15 +1,5 @@
-function NavBtn () {
-    // JSX: JavaScript XML
-    const siteTitle = 'Sabine Meyer-Hill'
-    return <nav>
-        <h2>{siteTitle}</h2>
-        <ul>
-            <li><a href="#">projects</a></li>
-            <li><a href="#">news</a></li>
-            <li><a href="#">contact</a></li>
-            <li><a href="#">about</a></li>
-        </ul>
-    </nav>;
+function NavBtn() {
+  return <button></button>;
 }
 
 export default NavBtn;
