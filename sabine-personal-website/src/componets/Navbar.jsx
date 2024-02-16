@@ -1,22 +1,25 @@
+import { Outlet, Link } from "react-router-dom";
 // PascalCasing for Components
 function Navbar() {
   // JSX: JavaScript XML
   const siteTitle = "Sabine Meyer-Hill";
   return (
     <nav>
-      <h2>{siteTitle}</h2>
+      <h2>
+        <Link to={`/`}>{siteTitle}</Link>
+      </h2>
       <ul>
         <li>
-          <a href="../routes/Projects">projects</a>
+          <Link to={`/Projects`}>projects</Link>
         </li>
         <li>
-          <a href="../routes/News">news</a>
+          <Link to={`/News`}>news</Link>
         </li>
         <li>
-          <a href="#">contact</a>
+          <Link to={`/Contact`}>contact</Link>
         </li>
         <li>
-          <a href="#">about</a>
+          <Link to={`/`}>about</Link>
         </li>
       </ul>
     </nav>

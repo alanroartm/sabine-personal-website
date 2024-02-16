@@ -1,7 +1,13 @@
 import Navbar from "../componets/Navbar";
+import { Outlet } from "react-router-dom";
 
-function Root() {
-  return <Navbar />;
+export default function Root() {
+  return (
+    <>
+      <Navbar />
+      <div>
+        <Outlet />
+      </div>
+    </>
+  );
 }
-
-export default Root;

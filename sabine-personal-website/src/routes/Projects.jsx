@@ -1,12 +1,9 @@
 import Navbar from "../componets/Navbar";
 
-function Projects() {
+export default function Projects() {
   return (
     <>
-      <Navbar />
-      <h1>Hello This is News</h1>
+      <h1>Hello This is Projects</h1>
     </>
   );
 }
-
-export default Projects;
