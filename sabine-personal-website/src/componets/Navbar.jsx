@@ -19,7 +19,7 @@ function Navbar() {
           <Link to={`/Contact`}>contact</Link>
         </li>
         <li>
-          <Link to={`/`}>about</Link>
+          <Link to={`/#about`}>about</Link>
         </li>
       </ul>
     </nav>
