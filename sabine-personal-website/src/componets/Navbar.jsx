@@ -1,12 +1,12 @@
 import { Outlet, Link } from "react-router-dom";
+import "../styles/Navbar.css";
 // PascalCasing for Components
 function Navbar() {
   // JSX: JavaScript XML
-  const siteTitle = "Sabine Meyer-Hill";
   return (
-    <nav>
+    <nav className="navbar">
       <h2>
-        <Link to={`/`}>{siteTitle}</Link>
+        <Link to={`/`}>Sabine Meyer-Hill</Link>
       </h2>
       <ul>
         <li>

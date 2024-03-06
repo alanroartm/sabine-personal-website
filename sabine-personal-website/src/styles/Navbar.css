@@ -1,0 +1,28 @@
+/* nav-styles.css */
+.navbar {
+  margin: 0;
+  display: flex;
+}
+
+h2 {
+  margin: 1rem;
+  flex: 2;
+  align-content: flex-start;
+}
+
+a {
+  text-decoration-line: none;
+  color: rgb(231, 22, 22);
+}
+
+ul {
+  display: inherit;
+  list-style: none;
+  align-content: flex-end;
+}
+
+li {
+  flex: 1;
+  text-align: left;
+  margin: 0 1rem;
+}
